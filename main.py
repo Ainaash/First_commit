@@ -1,16 +1,12 @@
-# This is a sample Python script.
+  # 3 айрылыш жол бар, эгерде 1-жолго тушсонуз атыныз олот,
+  # 2-жолго тушсонуз озунуз олосуз ал эми
+  # 3-жолго тушсонуз бактынызды табасыз:
+a=int(input("Кайсы жолду тандайсыз? "))
+if a==1:
+    print("Атыныз олот")
+elif a==2:
+    print("Озунуз олосуз")
+elif a==3:
+    print("Бактынызды табасыз")
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
