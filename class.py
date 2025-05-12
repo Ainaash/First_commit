@@ -14,7 +14,3 @@ person = Person('Fudd')
 doctor = MDPerson('Fudd')
 lawyer = JDPerson('Fudd')
 print(person.name)
-
-print(doctor.name)
-
-print(lawyer.name)
